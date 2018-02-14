@@ -7,6 +7,6 @@
 </head>
 <body>
     <?php include "include/menu.html" ?>
-
+    <?php include "include/footer.html" ?>
 </body>
 </html>
