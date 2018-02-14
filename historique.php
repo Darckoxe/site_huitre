@@ -1,7 +1,13 @@
-  <?php include "include/header.html" ?>
-    <title>Historique - Fleur des Flots, bar à huîtres.</title>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="web/css/style.css">
+    <script src="web/js/jquery.js" charset="utf-8"></script>
+    <title>Historique - Fleur des Flots</title>
   </head>
   <body>
-    <p> Bonjour </p>
+    <?php include 'include/menu.html' ?>
+    <script src="web/js/main.js" charset="utf-8"></script>
   </body>
 </html>
