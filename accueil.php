@@ -1,7 +1,12 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: root
- * Date: 14/02/18
- * Time: 14:00
- */
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil - Fleur des flots</title>
+    <script src="web/js/jquery.js"></script>
+</head>
+<body>
+    <?php include "include/menu.html" ?>
+
+</body>
+</html>
