@@ -8,6 +8,8 @@
   </head>
   <body>
     <?php include 'include/menu.html' ?>
+    
+    <?php include 'include/footer.html'; ?>
     <script src="web/js/main.js" charset="utf-8"></script>
   </body>
 </html>
