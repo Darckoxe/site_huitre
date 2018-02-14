@@ -1,5 +1,6 @@
 body {
-
+  background: url('http://www.fleursdesflots.fr/img/fond/fond.jpg');
+  background-repeat: repeat;
 }
 
 .container {
