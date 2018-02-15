@@ -8,6 +8,12 @@ body {
   margin: 0 auto;
   background-color: white;
   overflow: hidden;
+  box-shadow: 0px 5px 95px #615644;
+}
+
+.container_img{
+    width: 100%;
+    height: 250px;
 }
 
 .img_logo {
@@ -20,7 +26,7 @@ body {
 .img_bandeau {
   position: relative;
   width: 100%;
-  height: 240px;
+  height: 100%;
 }
 
 figure{
@@ -31,6 +37,7 @@ figure{
 }
 
 figure figcaption{
+    font-size: large;
   text-align: center;
 }
 
@@ -44,14 +51,31 @@ figure img{
   width: 75%;
 }
 
+.heures_ouverture{
+    display : inline-block;
+    margin-top: 2%;
+    margin-left: 35%;
+    text-align: justify;
+}
+
+span{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 p{
-text-align: center;
+    font-size: large;
+    text-align: center;
 }
 
 nav{
-    margin-top: 1%;
-    margin-bottom: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-bottom: 2%;
     text-align: center;
+    background-color: #333452;
 }
 
 nav a{
@@ -59,6 +83,8 @@ nav a{
     margin-left:5px;
     padding: 5px 10px;
     text-decoration:none;
+    font-size: x-large;
+    color: white;
 }
 
 nav li{
@@ -66,13 +92,17 @@ nav li{
 }
 
 .mentions_legales{
-    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 3%;
     text-align: center;
+    background-color: #333452;
+    color:  white;
 }
 
 a{
     text-decoration: none;
-    color: blue;
+    color: white;
 }
 
 a:hover, a:focus{
