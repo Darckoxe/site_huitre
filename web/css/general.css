@@ -1,0 +1,75 @@
+body {
+    /*background-image: url("../../web/img/fond.jpg");*/
+    /*background-repeat: repeat;*/
+    background-color: #003456;
+    /*background-color: #004775;*/
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover, a:focus{
+    text-decoration:underline;
+}
+
+.container {
+    width: 950px;
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0px 0px 30px black;
+}
+
+.container_img{
+    width: 100%;
+    height: 250px;
+}
+
+.img_logo {
+    position: absolute;
+    z-index: 200;
+    width: 240px;
+    height: auto;
+}
+
+.img_bandeau {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    /*background-color: #005A92;*/
+    background-color: #004775;
+}
+
+nav li{
+    font-size: large;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: inline;
+    color: white;
+}
+
+footer{
+    /*background-color: #005A92;*/
+    background-color: #004775;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer p,a{
+    text-align: center;
+    color: white;
+}
+
+footer a{
+    font-weight: bold;
+}
