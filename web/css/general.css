@@ -1,8 +1,5 @@
 body {
-    /*background-image: url("../../web/img/fond.jpg");*/
-    /*background-repeat: repeat;*/
     background-color: #003456;
-    /*background-color: #004775;*/
     font-family: 'Lato', sans-serif;
 }
 
@@ -25,6 +22,10 @@ a:hover, a:focus{
 .container_img{
     width: 100%;
     height: 250px;
+    background: url('../img/bandeau.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .img_logo {
@@ -117,3 +118,4 @@ footer a{
         font-size: xx-large;
     }
 }
+
