@@ -53,3 +53,24 @@
         display: block;
     }
 }
+
+@media screen and (max-device-width: 450px) {
+    .container_partenaire{
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 80%;
+        height: auto;
+        display: block;
+        padding-top: 1%;
+        padding-bottom: 5%;
+    }
+
+    .container_partenaire p{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 3%;
+        font-size: small;
+        text-align: justify;
+    }
+}

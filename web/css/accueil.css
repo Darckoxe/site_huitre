@@ -1,14 +1,18 @@
 header p{
+    width: 75%;
+    margin: 0 auto;
     text-align: center;
+    font-size: medium;
 }
 
 .heures_ouverture{
+    width: 75%;
+    margin: 0 auto;
     margin-top: 3%;
     text-align: center;
 }
 
 .heures_ouverture span{
-    display: block;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -41,6 +45,8 @@ header p{
 @media screen and (max-width: 950px)
 {
     header p{
+        width: 75%;
+        margin: 0 auto;
         margin-top: 5%;
         text-align: justify;
     }
@@ -62,5 +68,45 @@ header p{
         box-shadow: 0px 5px 25px black;
         width: 100%;
         height: auto;
+    }
+}
+
+@media screen and (max-device-width: 480px)
+{
+    header{
+        width: 95%;
+        margin: 0 auto;
+    }
+    header p{
+        font-size: xx-large;
+        text-align: justify;
+    }
+
+    .container2{
+        width: auto;
+    }
+
+    .container2 figure{
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 60%;
+        display: block;
+    }
+
+    .container2 figure img{
+        box-shadow: 0px 5px 25px black;
+        width: 100%;
+        height: auto;
+    }
+
+    .container2 figure figcaption{
+        font-size: xx-large;
+    }
+
+    .heures_ouverture{
+        width: 75%;
+        margin-bottom: 10%;
+        font-size: x-large;
     }
 }
