@@ -43,7 +43,7 @@ header p{
   display: block;
 }
 
-@media screen and (max-width: 950px)
+@media screen and (max-width: 480px)
 {
     header p{
         width: 75%;
@@ -73,45 +73,5 @@ header p{
       background-repeat: no-repeat;
       background-size: cover;
       display: block;
-    }
-}
-
-@media screen and (max-device-width: 480px)
-{
-    header{
-        width: 95%;
-        margin: 0 auto;
-    }
-    header p{
-        font-size: xx-large;
-        text-align: justify;
-    }
-
-    .container2{
-        width: auto;
-    }
-
-    .container2 figure{
-        margin: 0 auto;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        width: 60%;
-        display: block;
-    }
-
-    .container2 figure img{
-        box-shadow: 0px 5px 25px black;
-        width: 100%;
-        height: auto;
-    }
-
-    .container2 figure figcaption{
-        font-size: xx-large;
-    }
-
-    .heures_ouverture{
-        width: 75%;
-        margin-bottom: 10%;
-        font-size: x-large;
     }
 }

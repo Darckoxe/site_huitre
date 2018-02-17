@@ -42,19 +42,7 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 950px) {
-    .container_partenaire{
-        margin: 0 auto;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        padding: 2%;
-        min-width: 70%;
-        height: auto;
-        display: block;
-    }
-}
-
-@media screen and (max-device-width: 450px) {
+@media screen and (max-width: 480px) {
     .container_partenaire{
         margin: 0 auto;
         margin-top: 5%;
@@ -70,7 +58,7 @@
         width: 90%;
         margin: 0 auto;
         margin-top: 3%;
-        font-size: small;
+        font-size: medium;
         text-align: justify;
     }
 }
