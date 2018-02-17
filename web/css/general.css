@@ -63,13 +63,33 @@ footer{
     margin-top: 3%;
     padding-top: 2%;
     padding-bottom: 2%;
+    text-align: center;
 }
 
 footer p,a{
-    text-align: center;
     color: white;
 }
 
 footer a{
     font-weight: bold;
+}
+
+
+@media screen and (max-width: 950px)
+{
+    .container{
+        width : auto;
+    }
+
+    nav{
+        padding: 0;
+    }
+
+    nav li {
+        font-size: x-large;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        border: solid black 1px;
+        display: block;
+    }
 }
