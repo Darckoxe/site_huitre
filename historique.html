@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="web/css/reset.css">
-    <link rel="stylesheet" href="web/css/general.css">
-    <link rel="stylesheet" href="web/css/historique.css">
-    <script src="web/js/jquery.js" charset="utf-8"></script>
-    <title>Historique - Fleur des Flots</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="web/css/reset.css">
+  <link rel="stylesheet" href="web/css/general.css">
+  <link rel="stylesheet" href="web/css/historique.css">
+  <title>Historique - Fleur des Flots</title>
+</head>
+<body>
 
   <div class="container">
     <div class="container_img">
@@ -29,13 +28,76 @@
     </nav>
 
     <div class="frise">
+      <img src="web/img/frise.png" alt="Frise">
+      <div class="dates">
+        <div class="active" onclick="afficherTexte(0);">
+          Le commencement
+          <div class="point"></div>
+        </div>
+        <div onclick="afficherTexte(1);">
+          1948
+          <div class="point"></div>
+        </div>
+        <div onclick="afficherTexte(2);">
+          1952
+          <div class="point"></div>
+        </div>
+        <div onclick="afficherTexte(3);">
+          1967
+          <div class="point"></div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="txtDates" id="txtCommencement">
+      <h3>Le commencement : le <em>Fleur des Flots</em></h3>
+      <div class="galerie">
+        <img src="web/img/historique_commencement_1.jpg" alt="Commencement" onclick="ouvrirPhoto(this);">
+        <img src="web/img/historique_commencement_2.jpg" alt="Commencement" onclick="ouvrirPhoto(this);">
+        <img src="web/img/historique_commencement_3.jpg" alt="Commencement" onclick="ouvrirPhoto(this);">
+        <!-- <img src="web/img/historique_commencement_4.jpg" alt="Commencement" onclick="ouvrirPhoto(this);"> -->
+        <img src="web/img/historique_commencement_5.jpg" alt="Commencement" onclick="ouvrirPhoto(this);">
+      </div>
+      <p>L'histoire commence à Bourcefranc-Le-Chapus à côté de Marennes, le berceau de l'ostréiculture.</p><p>Le <em>Fleur des Flots</em> est le bateau de Julien Dangaly, ostréiculteur avant la guerre à Marennes. Il faisait partie de la multitude de petits parqueurs comme on les appelaient à l'époque. Il fut à l'origine de cette <b>saga familiale</b> autour de l'huître creuse....</p>
+    </div>
 
+    <div class="txtDates" id="txt1948">
+      <h3>1948 : Les premiers essais</h3>
+      <div class="galerie">
+        <img src="web/img/historique_1948_1.jpg" alt="1948" onclick="ouvrirPhoto(this);">
+      </div>
+      <p><b>1948</b> voit ses premiers essais d'huitres au sol à Bouin.</p><p>La construction de la petite cabane sur le Port des Brochets est lancée (une des premières sur le port) : La cabane du <b>BAR &Agrave; HUITRES.</b></p>
+    </div>
+
+    <div class="txtDates" id="txt1952">
+      <h3>1952 : L'arrivée à Bouin</h3>
+      <div class="galerie">
+        <img src="web/img/historique_1952_1.jpg" alt="1952" onclick="ouvrirPhoto(this);">
+        <img src="web/img/historique_1952_2.jpg" alt="1952" onclick="ouvrirPhoto(this);">
+      </div>
+      <p>En <b>1952</b>, des résultats prometteurs encouragent l'installation à Bouin -qui sera définitive- pour y élever les huîtres à même le sol selon la technique de l'époque.</p>
+    </div>
+
+    <div class="txtDates" id="txt1967">
+      <h3>1967 : Des essais à Cancale</h3>
+      <div class="galerie">
+        <img src="web/img/historique_1967_1.jpg" alt="1967" onclick="ouvrirPhoto(this);">
+        <img src="web/img/historique_1967_2.jpg" alt="1967" onclick="ouvrirPhoto(this);">
+        <img src="web/img/historique_1967_3.jpg" alt="1967" onclick="ouvrirPhoto(this);">
+      </div>
+      <p><b>1967</b> : De nouveaux essais sont menés à <b>Cancale</b> en baie du Mont Saint Michel. 40 ans plus tard, les parcs sont toujours exploités.</p>
+    </div>
+
+    <div class="apercuImage" id="apercuImage">
+      <span class="close" onclick="this.parentElement.style.display = 'none'">&times;</span>
+      <img id="imageApercu" alt="Image">
     </div>
 
     <footer>
       <p> Bar à Huîtres Fleurs des Flots © 2018 | <a href="#">Liens</a> | <a href="#"> Mentions légales </a> </p>
     </footer>
   </div>
-    <script src="web/js/main.js" charset="utf-8"></script>
-  </body>
+  <script src="web/js/jquery.js" charset="utf-8"></script>
+  <script src="web/js/main.js" charset="utf-8"></script>
+</body>
 </html>

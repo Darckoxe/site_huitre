@@ -1,4 +1,106 @@
 .frise {
-  height: 200px;
+  position: relative;
+}
+
+.frise img {
+  width: 902px;
+  display: block;
+  margin: auto;
+}
+
+.frise .dates {
+  position: absolute;
+  top: 50px;
   width: 100%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.frise .dates div {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  margin-right: 120px;
+  cursor: pointer;
+}
+
+.frise .dates div .point {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 5px;
+  display: block;
+}
+
+.frise .dates .active {
+  color: #f17354;
+}
+
+.frise .dates .active .point {
+  background-color: #f17354;
+}
+
+.txtDates {
+  text-align: center;
+  height: 380px;
+}
+
+.txtDates h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.txtDates .galerie {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.txtDates .galerie img {
+  height: 150px;
+  cursor: pointer;
+}
+
+.txtDates p {
+  padding: 10px 30px;
+  font-size: 16px;
+}
+
+em {
+  font-style: italic;
+}
+
+b {
+  font-weight: bold;
+}
+
+.apercuImage {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+  display: none;
+}
+
+.close {
+  color: white;
+  position: fixed;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 72px;
+}
+
+.apercuImage img#imageApercu {
+  max-width: 80%;
+  max-height: 80%;
+  margin: auto;
+  display: block;
+  margin-top: 10%;
 }
