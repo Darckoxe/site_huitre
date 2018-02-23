@@ -8,7 +8,8 @@ a{
 }
 
 a:hover, a:focus{
-    text-decoration:underline;
+    background-color: #f17354;
+
 }
 
 .container {
@@ -42,19 +43,21 @@ a:hover, a:focus{
 }
 
 nav{
-    padding-bottom: 2%;
-    padding-top: 2%;
     margin-bottom: 2%;
     text-align: center;
     /*background-color: #005A92;*/
     background-color: #004775;
+    width: 100%;
 }
 
 nav li{
-    padding-left: 2%;
-    padding-right: 2%;
-    display: inline;
     color: white;
+    display: inline-block;
+}
+nav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 18px 20px;
 }
 
 footer{
