@@ -115,11 +115,19 @@ footer a:hover{
         padding: 0;
     }
 
+    a.active, a:hover{
+      background-color: transparent
+    }
+
     nav li {
         font-size: large;
         padding-bottom: 1.5%;
         padding-top: 1.5%;
         border: solid black 1px;
         display: block;
+    }
+
+    footer{
+      display: none;
     }
 }
