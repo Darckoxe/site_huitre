@@ -82,7 +82,32 @@ footer p,a{
 }
 
 footer a{
-    font-weight: bold;
+  font-weight: bold;
+}
+
+footer a:hover{
+    background-color: transparent;
+    color : #f17354;
+}
+
+.btnHisto {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #004775;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.btnHisto:hover {
+  text-decoration: none;
+  color: #f17354;
+  background-color: #004775;
 }
 
 
@@ -96,11 +121,19 @@ footer a{
         padding: 0;
     }
 
+    a.active, a:hover{
+      background-color: transparent
+    }
+
     nav li {
         font-size: large;
         padding-bottom: 1.5%;
         padding-top: 1.5%;
         border: solid black 1px;
         display: block;
+    }
+
+    footer{
+      display: none;
     }
 }
