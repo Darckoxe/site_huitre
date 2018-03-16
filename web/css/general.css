@@ -1,13 +1,19 @@
 body {
-    background-color: #003456;
+    /*background-color: #003456;*/
+    background-image: url("../img/backwoodblur.png");
+    background-position: center;
+    background-attachment: fixed;
     font-family: 'Lato', sans-serif;
 }
-
+body background-image{
+    -webkit-filter: blur(35px); /* Safari */
+    filter: blur(35px);
+}
 a{
     text-decoration: none;
 }
 
-a:hover, a:focus{
+a:hover{
     background-color: #f17354;
 
 }
