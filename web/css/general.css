@@ -77,6 +77,26 @@ footer a{
     font-weight: bold;
 }
 
+.btnHisto {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #004775;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.btnHisto:hover {
+  text-decoration: none;
+  color: #f17354;
+  background-color: #004775;
+}
+
 
 @media screen and (max-width: 950px)
 {
