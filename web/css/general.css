@@ -76,7 +76,12 @@ footer p,a{
 }
 
 footer a{
-    font-weight: bold;
+  font-weight: bold;
+}
+
+footer a:hover{
+    background-color: transparent;
+    color : #f17354;
 }
 
 .btnHisto {
