@@ -11,7 +11,9 @@ a:hover, a:focus{
     background-color: #f17354;
 
 }
-
+a.active{
+    background-color: #db5939;
+}
 .container {
     width: 950px;
     margin: 0 auto;
