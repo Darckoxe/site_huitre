@@ -110,4 +110,19 @@ b {
   .frise{
     display: none;
   }
+
+  .txtDates {
+    height: auto;
+  }
+
+  .galerie img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .close {
+    font-size: 30px;
+    font-weight: bold;
+  }
 }
