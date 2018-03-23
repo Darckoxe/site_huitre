@@ -68,9 +68,6 @@ nav li a {
   padding: 18px 20px;
 }
 
-nav li a:hover {
-  color: #f17354;
-}
 
 footer{
   /*background-color: #005A92;*/
@@ -130,6 +127,10 @@ footer a:hover{
     font-size: 14px;
   }
 
+  nav li a:hover {
+    color: #f17354;
+  }
+  
   a.active, a:hover{
     background-color: transparent
   }
